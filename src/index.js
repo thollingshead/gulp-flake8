@@ -23,10 +23,10 @@ const formatOutput = result => {
     if (error.length !== 0) {
       const arrayLine = error.split(':');
       const errorObject = {};
-      errorObject.filename = arrayLine[0];
-      errorObject.row = arrayLine[1];
-      errorObject.column = arrayLine[2];
-      errorObject.reason = arrayLine[3].trim();
+      errorObject.filename = arrayLine.slice(0, -3).join(':');
+      errorObject.row = arrayLine[arrayLine.length - 3];
+      errorObject.column = arrayLine[arrayLine.length - 2];
+      errorObject.reason = arrayLine[arrayLine.length - 1].trim();
       allErrors.push(errorObject);
     }
   });
