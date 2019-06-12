@@ -10,7 +10,7 @@ This plugin wraps the flake8 binary for gulp and provides fancy and original rep
 
 ## Install
 
-    npm install @petervanderdoes/gulp-flake8 --save-dev
+    npm install @thollingshead/gulp-flake8 --save-dev
 
 This plugin requires [flake8](http://flake8.pycqa.org/en/latest/#installation)
 to be installed.
@@ -187,7 +187,7 @@ The reporter function will be called for each linted file that includes
 an error or warning and will be passed the ``result`` object as described above.
 
 ```javascript
-var flake8 = require('@petervanderdoes/gulp-flake8');
+var flake8 = require('@thollingshead/gulp-flake8');
 var gulp = require('gulp');
 var gulpUtil = require('gulp-util');
 

@@ -1,20 +1,26 @@
 {
-  "name": "@petervanderdoes/gulp-flake8",
+  "name": "@thollingshead/gulp-flake8",
   "description": "Flake8 plugin for gulp",
-  "version": "1.3.0-dev.1",
+  "version": "1.3.0",
   "main": "./src/index.js",
-  "homepage": "http://github.com/petervanderdoes/gulp-flake8",
+  "homepage": "http://github.com/thollingshead/gulp-flake8",
   "repository": {
     "type": "git",
-    "url": "git://github.com/petervanderdoes/gulp-flake8"
+    "url": "git://github.com/thollingshead/gulp-flake8"
   },
   "bugs": {
-    "url": "https://github.com/petervanderdoes/gulp-flake8/issues"
+    "url": "https://github.com/thollingshead/gulp-flake8/issues"
   },
   "author": {
     "name": "Peter van der Does",
     "email": "peter@avirtualhome.com"
   },
+  "contributors": [
+    {
+      "name": "Tim Hollingshead",
+      "email": "thollingshead@esri.com"
+    }
+  ],
   "keywords": [
     "gulp",
     "gulpplugin",
